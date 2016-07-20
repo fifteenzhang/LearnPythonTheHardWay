@@ -1,6 +1,6 @@
 def print_two(*args):
 	arg1, arg2 = args
-	print "arg1: %r, arg2: %r" % (arg1, arg2)
+	print "arg1: %r, arg2: %r" % (arg1, arg2)#%r出来结果会带引号 %s不会
 
 def print_two_again(arg1, arg2):
 	print "arg1: %r, arg2: %r" % (arg1, arg2)
