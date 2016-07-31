@@ -23,7 +23,7 @@ for i in range(5):
     print "Adding %d to the list." % i
     # append is a function that lists understand
     elements.append(i)
-    #若用elements = [0,1，2，3,4]，elements.append(i)，会无限循环
+    #若用elements = [0,1，2，3,4]，elements.append(i)能实现在列表的末尾追加一个元素，会无限循环
 
 # now we can print them out too
 for i in elements:
